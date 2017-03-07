@@ -503,20 +503,19 @@ html, body {
 }
 
 
-.logo p {
+.logo a {
 	padding-left: 10px;
 	color: white;
 	font-family: 'Montserrat', sans-serif;
 	font-size: emy(30);
 	font-weight: 700;
-	cursor: default;
 }
 
 .container {
 	width: 100%;
 	max-width: 1200px;
 	margin: 0 auto;
-	padding: 0 10px;
+	padding: 0 5px;
 }
 
 .menu {
@@ -566,22 +565,28 @@ html, body {
 	cursor: pointer;
 }
 
-.navbar .search {
+.search_btn {
 	background-image: url("../img/menu_pic.png");
 	background-position: 19px 0;
+	&:hover {
+		opacity: 0.5;
+	}
 }
 
-.navbar .search:focus {
+.search_btn:focus {
 	border:1px solid #000;
 }
 
-.navbar .basket {
+.basket {
 	width: 18px;
 	height: 18px;
 	background-image: url("../img/menu_pic.png");
+	&:hover {
+		opacity: 0.5;
+	}
 }
 
-.navbar .basket:focus {
+.basket:focus {
 	border: 1px solid #000;
 }
 
@@ -1033,7 +1038,6 @@ html, body {
 	left:31%;
 	min-width: 280px;
 	max-width: 530px;
-	width: 38%;
 	max-height: 595px;
 	height: 100%;
 	overflow:hidden;
@@ -1049,7 +1053,6 @@ html, body {
 	left: 60.5%;
 	min-width: 150px;
 	max-width: 305px;
-	width: 23%;
 	height: auto;
 	z-index: 1;
 }
@@ -1078,7 +1081,6 @@ html, body {
 	font-size: emy(30);
 	font-weight: 700;
 	text-transform: uppercase;
-	padding-bottom: 50%;
 }
 
 .feature_items p,
@@ -1989,6 +1991,9 @@ html, body {
 	font-size: emy(15);
 	font-weight: 400;
 	line-height: 24px;
+	&:hover {
+		color: #5d5c5c;
+	}
 }
 
 .clients_descr h3,
@@ -2049,15 +2054,18 @@ html, body {
 	max-width: 380px;
 }
 
-.blog_item1,
-.blog_item2,
-.blog_item3 {
+.blog_item {
 	position: relative;
+	padding: 3px;
+	&:hover {
+		box-shadow: 0 0 10px #777;
+	}
 }
 
-.blog_item1 .date,
-.blog_item2 .date,
-.blog_item3 .date {
+.blog_item .date{
+	position: absolute;
+	top: 38%;
+	left: -10px;
 	display: flex;
 	flex-direction:column;
 	justify-content: center;
@@ -2067,9 +2075,7 @@ html, body {
 	background-color: #95e1d3;
 }
 
-.blog_item1 .date p,
-.blog_item2 .date p,
-.blog_item3 .date p {
+.blog_item .date p {
 	font-family: 'Montserrat', sans-serif;
 	font-size: emy(30);
 	font-weight: 700;
@@ -2077,22 +2083,12 @@ html, body {
 	text-transform: uppercase;
 }
 
-.blog_item1 .date span,
-.blog_item2 .date span,
-.blog_item3 .date span {
+.blog_item .date span {
 	display: block;
 	font-family: 'Roboto', sans-serif;
 	font-size: emy(15);
 	font-weight: 300;
 	font-style: italic;
-}
-
-.blog_item1 .date,
-.blog_item2 .date,
-.blog_item3 .date {
-	position: absolute;
-	top: 38%;
-	left: -10px;
 }
 
 .blog_item-descr {
@@ -2195,11 +2191,15 @@ html, body {
 	font-family: 'Montserrat', sans-serif;
 	font-size: emy(24);
 	font-weight: 700;
-	padding-top: 40px;
+	padding: 70px 40px;
+	padding-top: 99px;
 	text-transform: uppercase;
 	background: url(../img/map-icon.png);
-	background-position: 50% 0;
+	background-position: 50% 60px;
 	background-repeat: no-repeat;
+	&:hover {
+		box-shadow: 0px 0px 5px #ef5b5b;
+	}
 }
 
 .open_map span {
@@ -2407,6 +2407,10 @@ html, body {
 	}
 }
 
+.footer_blog_item:hover {
+	outline: 5px solid #777;
+}
+
 .footer_blog_item a {
 	display: flex;
 	flex-direction: row;
@@ -2471,7 +2475,9 @@ html, body {
 		font-weight: 300;
 		font-style: italic;
 		line-height: 24px;
-
+		&:hover {
+			color: #aaa;
+		}
 	}
 }
 

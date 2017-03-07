@@ -157,7 +157,7 @@
  .menu {
 	flex-direction:column;
 }
-.menu ul {
+.navbar {
 	justify-content: space-between;
 	align-self: center;
 }
@@ -227,9 +227,11 @@
 .feature_mob {
 	top:29%;
 	left:25%;
+	width: 44%;
 }
 .feature_mob-sm {
-	top:60%;
+	top:43%;
+	width: 34%;
 }
 .company_logo,
 .clients {
@@ -392,6 +394,23 @@
 		display: none;
 	}
 }
+
+@media only screen and (max-width:425px) {
+	.navbar {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.navbar li {
+		margin-right: 14px;
+	}
+}
+
+@media only screen and (max-width:375px) {
+	.head_descr h1 {
+		font-size: 1.7rem;
+	}
+}
+
 @media only screen and (max-width:320px) { 
 /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
 	.head_descr h2 {
@@ -403,11 +422,6 @@
 	.head_streak p {
 		margin-top: 0;
 	}
-	.navbar li:nth-child(1),
-	.navbar li:nth-child(2),
-	.navbar li:nth-child(3),
-	.navbar li:nth-child(4),
-	.navbar li:nth-child(5),
 	.head_slider ul {
 		display: none;
 	}
