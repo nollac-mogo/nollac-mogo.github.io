@@ -1,4 +1,4 @@
 $('.quote-slider, .work-slider').slick({
-  autoplay: true,
+  // autoplay: true,
   respondTo: window
 });

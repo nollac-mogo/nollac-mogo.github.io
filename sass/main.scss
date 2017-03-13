@@ -1316,7 +1316,12 @@ html, body {
 	background-color: #f38181;
 }
 
+.slick-initialized .slick-slide {
+	display: flex;
+}
+
 .slick-slide img {
+	display: inline-block;
 	max-width: 150px;
 	max-height: 150px;
 }
