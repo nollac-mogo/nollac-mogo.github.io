@@ -504,14 +504,11 @@ html, body {
   .search_btn:hover {
     opacity: 0.5; }
 
-.search_btn:focus {
-  border: 1px solid #000; }
-
-.basket {
+.basket_btn {
   width: 18px;
   height: 18px;
   background-image: url("../img/menu_pic.png"); }
-  .basket:hover {
+  .basket_btn:hover {
     opacity: 0.5; }
 
 .basket:focus {
@@ -2454,7 +2451,7 @@ html, body {
   font-style: italic;
   line-height: 24px; }
 
-.follow ul {
+.social_btn {
   margin-left: 22px; }
 
 .social_btn li {
@@ -2587,16 +2584,16 @@ html, body {
   .instagram_foto a:focus {
     outline: #5D5E5E dashed 1px; }
 
-.instagram-link {
+.instagram_link {
   margin-top: 20px; }
-  .instagram-link a {
+  .instagram_link a {
     color: #333;
     font-family: 'Roboto', sans-serif;
     font-size: 0.8125rem;
     font-weight: 300;
     font-style: italic;
     line-height: 24px; }
-    .instagram-link a:hover {
+    .instagram_link a:hover {
       color: #aaa; }
 
 .focus-el:focus {

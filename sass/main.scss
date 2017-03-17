@@ -573,11 +573,7 @@ html, body {
 	}
 }
 
-.search_btn:focus {
-	border:1px solid #000;
-}
-
-.basket {
+.basket_btn {
 	width: 18px;
 	height: 18px;
 	background-image: url("../img/menu_pic.png");
@@ -2335,7 +2331,7 @@ html, body {
 	line-height: 24px;
 }
 
-.follow ul {
+.social_btn {
 	margin-left: 22px;
 }
 
@@ -2400,8 +2396,6 @@ html, body {
 .footer_blogs {
 	display: flex;
 	flex-direction: column;
-	
-
 	& h3 {
 		margin-top: 80px;
 		color: #333;
@@ -2470,7 +2464,7 @@ html, body {
 
 }
 
-.instagram-link {
+.instagram_link {
 	margin-top: 20px;
 	
 	& a {
