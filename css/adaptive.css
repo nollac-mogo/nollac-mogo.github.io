@@ -344,7 +344,9 @@
 
 @media only screen and (max-width: 385px) {
   .subscribe {
-    max-width: 300px; } }
+    max-width: 300px; }
+  .social_btn {
+    margin-left: 0; } }
 
 @media only screen and (max-width: 375px) {
   .head_descr h1 {
