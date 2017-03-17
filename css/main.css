@@ -404,6 +404,49 @@ template {
 [hidden] {
   display: none; }
 
+.mob_menu {
+  position: absolute;
+  display: none;
+  top: 0;
+  right: 20px;
+  width: 30px;
+  height: 30px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#fce38a), color-stop(20%, #fce38a), color-stop(20%, #95e1d3), color-stop(40%, #95e1d3), color-stop(40%, #fce38a), color-stop(60%, #fce38a), color-stop(60%, #95e1d3), color-stop(80%, #95e1d3), color-stop(80%, #fce38a), to(#fce38a));
+  background: -webkit-linear-gradient(top, #fce38a, #fce38a 20%, #95e1d3 20%, #95e1d3 40%, #fce38a 40%, #fce38a 60%, #95e1d3 60%, #95e1d3 80%, #fce38a 80%, #fce38a 100%);
+  background: linear-gradient(to bottom, #fce38a, #fce38a 20%, #95e1d3 20%, #95e1d3 40%, #fce38a 40%, #fce38a 60%, #95e1d3 60%, #95e1d3 80%, #fce38a 80%, #fce38a 100%); }
+
+.navbar.active {
+  position: absolute;
+  max-width: 200px;
+  top: 30px;
+  right: 20px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: rgba(252, 227, 138, 0.3);
+  -webkit-border-radius: 5px;
+          border-radius: 5px; }
+  .navbar.active a {
+    padding: 10px 75px; }
+  .navbar.active button {
+    margin-left: 30px;
+    background: none; }
+    .navbar.active button span {
+      display: inline-block;
+      padding: 10px 40px;
+      margin-bottom: 5px;
+      color: white;
+      font-family: 'Montserrat',sans-serif;
+      font-size: 0.875rem;
+      font-weight: 400;
+      text-transform: uppercase; }
+
 .about_descr {
   display: -webkit-box;
   display: -webkit-flex;

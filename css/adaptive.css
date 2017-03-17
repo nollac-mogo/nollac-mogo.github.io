@@ -147,6 +147,12 @@
   .head_descr {
     margin-top: 20%; } }
 
+@media only screen and (max-width: 768px) {
+  .navbar {
+    display: none; }
+  .mob_menu {
+    display: block; } }
+
 @media only screen and (max-width: 699px) {
   .head_descr h1 {
     font-size: 3.5rem; }

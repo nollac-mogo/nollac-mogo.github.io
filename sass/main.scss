@@ -691,6 +691,45 @@ template {
 // 	font-weight: 700;
 // }
 
+.mob_menu {
+	position: absolute;
+	display: none;
+	top:0;
+	right: 20px;
+	width: 30px;
+	height: 30px;
+	background: linear-gradient(to bottom, #fce38a, #fce38a 20%, #95e1d3 20%, #95e1d3 40%, #fce38a 40%, #fce38a 60%, #95e1d3 60%, #95e1d3 80%, #fce38a 80%, #fce38a 100%);
+}
+
+.navbar.active {
+	position: absolute;
+	max-width: 200px;
+	top: 30px;
+	right: 20px;
+	display: flex;
+	flex-direction: column;
+	background: rgba(252,227,138, 0.3);
+	border-radius: 5px;
+	& a {
+		padding: 10px 75px;
+	}
+	& button {
+		margin-left: 30px;
+		background: none;
+		& span {
+			display: inline-block;
+			padding: 10px 40px;
+			margin-bottom: 5px;
+			color:white;
+			font-family:'Montserrat',sans-serif;
+			font-size:0.875rem;
+			font-weight:400;
+			text-transform:uppercase;
+		}
+	}
+	
+}
+
 .about_descr {
 	display: flex;
 	margin: auto;
