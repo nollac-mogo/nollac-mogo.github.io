@@ -181,18 +181,14 @@
 .logos {
 	flex-wrap:wrap;
 }
-.logo-item li:nth-child(5),
-.logo-item li:nth-child(6) {
+.logo_item li:nth-child(5),
+.logo_item li:nth-child(6) {
 	display: none;
 }
 .footer_blogs h3,
 .instagram_fotos h3 {
 	margin: 25px auto 0 auto;
 }
-}
-@media only screen and (max-width:641px) { 
-/* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ 
-
 }
 @media only screen and (max-width:655px) {
 .head_descr h1 {
@@ -390,7 +386,7 @@
 	.logos img {
 	margin-top: 40px;
 }
-	.logo-item li:nth-child(4) {
+	.logo_item li:nth-child(4) {
 		display: none;
 	}
 }
@@ -508,7 +504,7 @@
 	.company_logo {
 		margin-top: 20px;
 	}
-	.logo-item li:nth-child(3) {
+	.logo_item li:nth-child(3) {
 		display: none;
 	}
 	.clients {

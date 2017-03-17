@@ -1649,7 +1649,7 @@ html, body {
       -ms-flex-pack: justify;
           justify-content: space-between; }
 
-.logos .logo-item {
+.logos .logo_item {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
