@@ -418,6 +418,12 @@
 	}
 }
 
+@media only screen and (max-width:385px) {
+	.subscribe {
+		max-width: 300px;
+	}
+}
+
 @media only screen and (max-width:375px) {
 	.head_descr h1 {
 		font-size: 1.7rem;
