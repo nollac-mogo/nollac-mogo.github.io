@@ -14,3 +14,4 @@ $('.navbar_link').on('click', function(){
 $('.mob_menu').on('click', function() {
 	$('.navbar').toggleClass('active');
 });
+

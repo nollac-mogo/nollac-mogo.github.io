@@ -429,11 +429,13 @@ template {
   -webkit-flex-direction: column;
       -ms-flex-direction: column;
           flex-direction: column;
-  background: rgba(252, 227, 138, 0.3);
+  background: #95e1d3;
   -webkit-border-radius: 5px;
           border-radius: 5px; }
   .navbar.active a {
     padding: 10px 75px; }
+    .navbar.active a:hover {
+      border: none; }
   .navbar.active button {
     margin-left: 30px;
     background: none; }
