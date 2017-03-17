@@ -20,12 +20,12 @@
 		   				<a href="#">MoGo</a>
 		   			</div>
 		   			<nav>
-		   				<ul class="navbar">
-		   					<li><a class="focus-el" href="#about">About</a></li>
-		   					<li><a class="focus-el" href="#service">service</a></li>
-		   					<li><a class="focus-el" href="#work">work</a></li>
-		   					<li><a class="focus-el" href="#blog">blog</a></li>
-		   					<li><a class="focus-el" href="#contact">contact</a></li>
+		   				<ul id="menu" class="navbar">
+		   					<li><a class="navbar_link focus-el" href="#about" data-target="#about">About</a></li>
+		   					<li><a class="navbar_link focus-el" href="#service">service</a></li>
+		   					<li><a class="navbar_link focus-el" href="#work">work</a></li>
+		   					<li><a class="navbar_link focus-el" href="#blog">blog</a></li>
+		   					<li><a class="navbar_link focus-el" href="#contact">contact</a></li>
 		   					<li><button class="search_btn"></button></li>
 		   					<li><button class="basket_btn"></button></li>
 		   				</ul>
@@ -50,10 +50,9 @@
 	 			</div>
 			</div>
 	 	</header>
-	 	<div class="about_as">
+	 	<div id="about" class="about_as" data-target="#about">
 	 		<div class="container">
 	 			<div class="about_descr">
-	 			<a name="about" href="#"></a>
    				<h3>What we do</h3>
    				<h2>Story about as</h2>
    				<span></span>
@@ -83,10 +82,9 @@
 				</ul>
 			</div>
 		</div>
-		<div class="service">
+		<div id="service" class="service">
 			<div class="container">
 				<div class="service_descr">
-				<a name="service" href="#"></a>
 					<p>We work with</p>
 					<h2>Amazing Services</h2>
 					<div class="service_strike"><p></p></div>
@@ -270,9 +268,8 @@
 					</div>
 				</div>
 			</div>
-			<div class="our_work">
+			<div id="work" class="our_work">
 				<div class="container">
-				<a name="work" href="#"></a>
 					<div class="our_team-descr">
 						<h3>What we do</h3>
 						<h2>some of our work</h2>
@@ -402,9 +399,8 @@
 					</div>
 				</div>
 			</div>
-			<div class="blog">
+			<div id="blog" class="blog">
 				<div class="container">
-				<a name="blog" href="#"></a>
 					<div class="blog_descr">
 						<h3>Our stories</h3>
 						<h2>Latest blog</h2>
@@ -434,7 +430,7 @@
 								<div class="blog_item-activity">
 										<span class="views">992</span>
 										<span class="comments">42</span>
-									</div>
+								</div>
 							</a>
 						</div>
 						<div class="blog_item">
@@ -462,9 +458,8 @@
 				</div>
 			</div>
 		</div>
-		<footer class="footer">
+		<footer id="contact" class="footer">
 			<div class="container">
-			<a name="contact" href="#"></a>
 				<div class="subscribe">
 					<h3>MoGo</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
@@ -556,5 +551,13 @@
   <script src="https://code.jquery.com/jquery-2.2.4.min.js" defer></script>
   <script src="js/slick/slick.min.js" defer></script>
   <script src="js/common.js" defer></script>
+  <!-- <script>
+	  $('.navbar a').on('click', function(event) {
+		event.preventDefault();
+		var id  = $(this).attr('href'),
+		var top = $(id).offset().top;
+		$('body, html').animate({scrollTop:top}, 1500);
+	});
+</script> -->
 </body>
 </html>
