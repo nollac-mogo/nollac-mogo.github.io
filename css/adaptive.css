@@ -200,6 +200,10 @@
         -ms-flex-direction: column;
             flex-direction: column; } }
 
+@media only screen and (max-width: 510px) {
+  .head_descr h1 {
+    font-size: 2.8rem; } }
+
 @media only screen and (max-width: 481px) {
   /* smartphones, Android phones, landscape iPhone */
   .menu {

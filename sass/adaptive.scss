@@ -96,288 +96,295 @@
 
 @media only screen and (max-width:1182px) { 
 /* big landscape tablets, laptops, and desktops */
- .about_pic,
- .team_pic,
- .blog_items,
- .footer .container {
-	justify-content: space-around;
- }
- .slick-prev,
-.slick-next {
-	display: none;
-}
+	 .about_pic,
+	 .team_pic,
+	 .blog_items,
+	 .footer .container {
+		justify-content: space-around;
+	 }
+	 .slick-prev,
+	.slick-next {
+		display: none;
+	}
 
- .team_pic-bg,
- .blog_item1,
- .blog_item2,
- .blog_item3 {
- 	margin-top: 10px;
- 	margin-right: 20px;
- }
-.work_pic {
-	justify-content: center;
- 	background: none;
- 	width: 100%;
- }
- .work_pic-part1 {
- 	flex-direction: column;
- 	align-content: center;
- }
- .work_pic-part2 {
- 	display: none;
-}
+	 .team_pic-bg,
+	 .blog_item1,
+	 .blog_item2,
+	 .blog_item3 {
+	 	margin-top: 10px;
+	 	margin-right: 20px;
+	 }
+	.work_pic {
+		justify-content: center;
+	 	background: none;
+	 	width: 100%;
+	 }
+	 .work_pic-part1 {
+	 	flex-direction: column;
+	 	align-content: center;
+	 }
+	 .work_pic-part2 {
+	 	display: none;
+	}
 }
 
 @media only screen and (max-width:961px) { 
 /* tablet, landscape iPad, lo-res laptops ands desktops */
-.menu {
-	margin-right: 20px;
-}
-.head_descr h2 {
-	font-size: 3rem;
-}
-.head_descr h1 {
-	font-size: 6rem;
-}
-.link_button a {
-	font-size: 0.6rem;
-}
-.wwd_tabs,
-.quote,
-.our_work,
-.work_pic-wrapper,
-.our_work-slider {
-	display: none;
+	.menu {
+		margin-right: 20px;
 	}
+	.head_descr h2 {
+		font-size: 3rem;
+	}
+	.head_descr h1 {
+		font-size: 6rem;
+	}
+	.link_button a {
+		font-size: 0.6rem;
+	}
+	.wwd_tabs,
+	.quote,
+	.our_work,
+	.work_pic-wrapper,
+	.our_work-slider {
+		display: none;
+		}
 
 
 }
 
 @media only screen and (max-width:771px) { 
- .menu {
-	flex-direction:column;
-}
-.navbar {
-	justify-content: space-between;
-	align-self: center;
-}
-.logo {
-	align-self: center;
-}
-.navbar li {
-	margin-right: 17px;
-}
-.navbar li:last-child {
-	margin-right: 0;
-}
-.head_descr {
-	margin-top: 20%;
-}
+	 .menu {
+		flex-direction:column;
+	}
+	.navbar {
+		justify-content: space-between;
+		align-self: center;
+	}
+	.logo {
+		align-self: center;
+	}
+	.navbar li {
+		margin-right: 17px;
+	}
+	.navbar li:last-child {
+		margin-right: 0;
+	}
+	.head_descr {
+		margin-top: 20%;
+	}
 }
 @media only screen and (max-width:699px) {
-.head_descr h1 {
-	font-size: 3.5rem;
-}
-.logos {
-	flex-wrap:wrap;
-}
-.logo_item li:nth-child(5),
-.logo_item li:nth-child(6) {
-	display: none;
-}
-.footer_blogs h3,
-.instagram_fotos h3 {
-	margin: 25px auto 0 auto;
-}
+	.head_descr h1 {
+		font-size: 3.5rem;
+	}
+	.logos {
+		flex-wrap:wrap;
+	}
+	.logo_item li:nth-child(5),
+	.logo_item li:nth-child(6) {
+		display: none;
+	}
+	.footer_blogs h3,
+	.instagram_fotos h3 {
+		margin: 25px auto 0 auto;
+	}
 }
 @media only screen and (max-width:655px) {
-.head_descr h1 {
-	font-size: 3rem;
-}
-.link_button a {
-	width: 20%;
-}
-.about_pic-bg {
-	margin-top: 20px;
-}
-.client_review-part2 {
-	display: none;
-}
-.facts span {
-	font-size: 3rem;
-}
-.caption-text {
-	margin-left: 7%;
-}
-.caption_ic1,
-.caption_ic2,
-.caption_ic3,
-.caption_ic4,
-.caption_ic5,
-.caption_ic6 {
-	display: none;
-}
-.feature {
-	height: 630px;
-}
-.feature_mob {
-	top:29%;
-	left:25%;
-	width: 44%;
-}
-.feature_mob-sm {
-	top:43%;
-	width: 34%;
-}
-.company_logo,
-.clients {
-	margin-top: 40px;
-}
-.client_review-part1 {
-	flex-direction: column;
-}
+	.head_descr h1 {
+		font-size: 3rem;
+	}
+	.link_button a {
+		width: 20%;
+	}
+	.about_pic-bg {
+		margin-top: 20px;
+	}
+	.client_review-part2 {
+		display: none;
+	}
+	.facts span {
+		font-size: 3rem;
+	}
+	.caption-text {
+		margin-left: 7%;
+	}
+	.caption_ic1,
+	.caption_ic2,
+	.caption_ic3,
+	.caption_ic4,
+	.caption_ic5,
+	.caption_ic6 {
+		display: none;
+	}
+	.feature {
+		height: 630px;
+	}
+	.feature_mob {
+		top:29%;
+		left:25%;
+		width: 44%;
+	}
+	.feature_mob-sm {
+		top:43%;
+		width: 34%;
+	}
+	.company_logo,
+	.clients {
+		margin-top: 40px;
+	}
+	.client_review-part1 {
+		flex-direction: column;
+	}
 
 }
+
+@media only screen and (max-width:510px) {
+	.head_descr h1 {
+		font-size: 2.8rem;
+	}
+}
+
 @media only screen and (max-width:481px) {
 /* smartphones, Android phones, landscape iPhone */
-.menu {
-	flex-direction:column;
-}
-.logo {
-	align-self: center;
-}
-.navbar li {
-	margin-right: 17px;
-}
-.head_descr {
-	margin-top: 20%;
-}
-.head_descr h2 {
-	font-size: 2rem;
-}
-.head_descr h1 {
-	margin-top: 0;
-	font-size:2.2rem; 
-}
-.head_streak p {
-	width: 10%;
-}
-.link_button a {
-	width: 35%;
-}
-.head_slider {
-	margin-top: 7%;
-}
-.head_slider li:nth-child(3) {
-	margin-right: 10px;
-}
-.head_slider li:last-child {
-	display: none;
-}
-.about_pic1,
-.about_pic2,
-.about_pic3,
-.about_pic1:before,
-.about_pic2:before,
-.about_pic3:before {
-	width: 320px;
-	height: 190px;
-}
-.about_pic1 {
-	background-position: -40px 0;
-}
-.about_pic2 {
-	background-position: 0 -60px;
-}
-.about_pic3 {
-	background-position: 0 -15px;
-}
-.about_pic1:hover,
-.about_pic2:hover,
-.about_pic3:hover {
-	right: 5px;
-	bottom: 5px;
-}
-.about_pic1 span,
-.about_pic2 span,
-.about_pic3 span {
-	top:100px;
-	left:100px;
-}
-.facts span {
-	font-size: 2rem;
-}
-.facts li {
-	font-size: 0.5rem;
-}
-.caption_ic1,
-.caption_ic2,
-.caption_ic3 {
-	background: none;
-}
-.service_items-strike,
-.service_item4,
-.service_item5,
-.service_item6 {
-	display: none;
-}
-.service_item1,
-.service_item2,
-.service_item3 {
-	margin-bottom: 30px;
-}
-.feature_mob {
-	top:30%;
-	left:10%;
-}
+	.menu {
+		flex-direction:column;
+	}
+	.logo {
+		align-self: center;
+	}
+	.navbar li {
+		margin-right: 17px;
+	}
+	.head_descr {
+		margin-top: 20%;
+	}
+	.head_descr h2 {
+		font-size: 2rem;
+	}
+	.head_descr h1 {
+		margin-top: 0;
+		font-size:2.2rem; 
+	}
+	.head_streak p {
+		width: 10%;
+	}
+	.link_button a {
+		width: 35%;
+	}
+	.head_slider {
+		margin-top: 7%;
+	}
+	.head_slider li:nth-child(3) {
+		margin-right: 10px;
+	}
+	.head_slider li:last-child {
+		display: none;
+	}
+	.about_pic1,
+	.about_pic2,
+	.about_pic3,
+	.about_pic1:before,
+	.about_pic2:before,
+	.about_pic3:before {
+		width: 320px;
+		height: 190px;
+	}
+	.about_pic1 {
+		background-position: -40px 0;
+	}
+	.about_pic2 {
+		background-position: 0 -60px;
+	}
+	.about_pic3 {
+		background-position: 0 -15px;
+	}
+	.about_pic1:hover,
+	.about_pic2:hover,
+	.about_pic3:hover {
+		right: 5px;
+		bottom: 5px;
+	}
+	.about_pic1 span,
+	.about_pic2 span,
+	.about_pic3 span {
+		top:100px;
+		left:100px;
+	}
+	.facts span {
+		font-size: 2rem;
+	}
+	.facts li {
+		font-size: 0.5rem;
+	}
+	.caption_ic1,
+	.caption_ic2,
+	.caption_ic3 {
+		background: none;
+	}
+	.service_items-strike,
+	.service_item4,
+	.service_item5,
+	.service_item6 {
+		display: none;
+	}
+	.service_item1,
+	.service_item2,
+	.service_item3 {
+		margin-bottom: 30px;
+	}
+	.feature_mob {
+		top:30%;
+		left:10%;
+	}
 
-.team_pic-bg,
-.team_pic1,
-.team_pic2,
-.team_pic3,
-.team_pic1:before,
-.team_pic2:before,
-.team_pic3:before {
-	width: 280px;
-	height: 370px;
-}
-.team_pic1 li,
-.team_pic2 li,
-.team_pic3 li {
-	top: 170px;
-	left:30px;
-}
-.team_pic2 {
-	background-position: -170px -80px;
-}
-.clients {
-	margin-top: 70px;
-}
+	.team_pic-bg,
+	.team_pic1,
+	.team_pic2,
+	.team_pic3,
+	.team_pic1:before,
+	.team_pic2:before,
+	.team_pic3:before {
+		width: 280px;
+		height: 370px;
+	}
+	.team_pic1 li,
+	.team_pic2 li,
+	.team_pic3 li {
+		top: 170px;
+		left:30px;
+	}
+	.team_pic2 {
+		background-position: -170px -80px;
+	}
+	.clients {
+		margin-top: 70px;
+	}
 
-.client_review-part2 {
-	display: none;
-}
-.clients_descr {
-	margin-bottom: 20px;
-}
-.clients_descr h3 {
-	margin-top: 50px;
-}
-.clients_descr span {
-	display: none;
-}
-.client_review-item {
-	margin-bottom: 20px;
-}
-.team_pic-bg,
-.blog_item1,
-.blog_item2,
-.blog_item3 {
-	margin-right: 0;
-}
-.social_btn li {
-	margin-left: 10px;
-}
+	.client_review-part2 {
+		display: none;
+	}
+	.clients_descr {
+		margin-bottom: 20px;
+	}
+	.clients_descr h3 {
+		margin-top: 50px;
+	}
+	.clients_descr span {
+		display: none;
+	}
+	.client_review-item {
+		margin-bottom: 20px;
+	}
+	.team_pic-bg,
+	.blog_item1,
+	.blog_item2,
+	.blog_item3 {
+		margin-right: 0;
+	}
+	.social_btn li {
+		margin-left: 10px;
+	}
 }
 @media only screen and (max-width:450px) {
 	.company_logo {
@@ -410,10 +417,10 @@
 @media only screen and (max-width:320px) { 
 /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
 	.head_descr h2 {
-	font-size: 1.3rem;
+		font-size: 1.3rem;
 	}
 	.head_descr h1 {
-	font-size:1.3rem; 
+		font-size:1.3rem; 
 	}
 	.head_streak p {
 		margin-top: 0;
