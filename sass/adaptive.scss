@@ -412,6 +412,13 @@
 	.head_descr h1 {
 		font-size: 1.7rem;
 	}
+	.link_button {
+		margin-bottom: 20px;
+	}
+	.head_slider {
+		display: none;
+	}
+
 }
 
 @media only screen and (max-width:320px) { 
@@ -424,9 +431,6 @@
 	}
 	.head_streak p {
 		margin-top: 0;
-	}
-	.head_slider ul {
-		display: none;
 	}
 	.about_descr h3 {
 		margin-top: 3vh;
