@@ -655,7 +655,7 @@ html, body {
 .mob_menu {
   position: absolute;
   display: none;
-  top: 0;
+  top: 30px;
   right: 20px;
   width: 30px;
   height: 30px;
