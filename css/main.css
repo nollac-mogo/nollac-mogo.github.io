@@ -411,9 +411,9 @@ template {
   right: 20px;
   width: 30px;
   height: 30px;
-  background: -webkit-gradient(linear, left top, left bottom, from(#fce38a), color-stop(20%, #fce38a), color-stop(20%, #95e1d3), color-stop(40%, #95e1d3), color-stop(40%, #fce38a), color-stop(60%, #fce38a), color-stop(60%, #95e1d3), color-stop(80%, #95e1d3), color-stop(80%, #fce38a), to(#fce38a));
-  background: -webkit-linear-gradient(top, #fce38a, #fce38a 20%, #95e1d3 20%, #95e1d3 40%, #fce38a 40%, #fce38a 60%, #95e1d3 60%, #95e1d3 80%, #fce38a 80%, #fce38a 100%);
-  background: linear-gradient(to bottom, #fce38a, #fce38a 20%, #95e1d3 20%, #95e1d3 40%, #fce38a 40%, #fce38a 60%, #95e1d3 60%, #95e1d3 80%, #fce38a 80%, #fce38a 100%); }
+  background: -webkit-gradient(linear, left top, left bottom, from(#cccccc), color-stop(20%, #cccccc), color-stop(20%, transparent), color-stop(40%, transparent), color-stop(40%, #cccccc), color-stop(60%, #cccccc), color-stop(60%, transparent), color-stop(80%, transparent), color-stop(80%, #cccccc), to(#cccccc));
+  background: -webkit-linear-gradient(top, #cccccc, #cccccc 20%, transparent 20%, transparent 40%, #cccccc 40%, #cccccc 60%, transparent 60%, transparent 80%, #cccccc 80%, #cccccc 100%);
+  background: linear-gradient(to bottom, #cccccc, #cccccc 20%, transparent 20%, transparent 40%, #cccccc 40%, #cccccc 60%, transparent 60%, transparent 80%, #cccccc 80%, #cccccc 100%); }
 
 .navbar.active {
   position: absolute;
@@ -1061,7 +1061,7 @@ template {
       -ms-flex-pack: center;
           justify-content: center;
   padding-top: 55px;
-  max-width: 1180px;
+  max-width: 1190px;
   outline: none;
   cursor: pointer; }
 
@@ -1668,7 +1668,7 @@ template {
       -ms-flex-pack: center;
           justify-content: center;
   padding-top: 55px;
-  max-width: 1180px;
+  max-width: 1190px;
   outline: none;
   cursor: pointer; }
 

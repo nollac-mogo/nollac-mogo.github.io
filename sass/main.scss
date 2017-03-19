@@ -698,7 +698,7 @@ template {
 	right: 20px;
 	width: 30px;
 	height: 30px;
-	background: linear-gradient(to bottom, #fce38a, #fce38a 20%, #95e1d3 20%, #95e1d3 40%, #fce38a 40%, #fce38a 60%, #95e1d3 60%, #95e1d3 80%, #fce38a 80%, #fce38a 100%);
+	background: linear-gradient(to bottom, #cccccc, #cccccc 20%, transparent 20%, transparent 40%, #cccccc 40%, #cccccc 60%, transparent 60%, transparent 80%, #cccccc 80%, #cccccc 100%);
 }
 
 .navbar.active {
@@ -1315,7 +1315,7 @@ template {
 	flex-wrap: nowrap;
 	justify-content: center;
 	padding-top: 55px;
-	max-width: 1180px;
+	max-width: 1190px;
 	outline: none;
 	cursor: pointer;
 }
@@ -1859,7 +1859,7 @@ template {
 	position: relative;
 	justify-content: center;
 	padding-top: 55px;
-	max-width: 1180px;
+	max-width: 1190px;
 	outline: none;
 	cursor: pointer;
 }
