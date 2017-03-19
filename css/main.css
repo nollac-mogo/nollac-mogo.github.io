@@ -627,7 +627,7 @@ html, body {
 .head_slider li {
   position: relative;
   width: 23.33333%;
-  padding-top: 1.83333%;
+  padding-top: 20px;
   font-size: 1.125rem;
   font-weight: 400;
   color: #ffffff;
